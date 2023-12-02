@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_lab1/screens/main/components/tab_bar.dart';
+import 'package:flutter_lab1/screens/main/components/titleComponent.dart';
 import 'package:flutter_lab1/theme/strings.dart';
 
 class ProfilePage extends StatefulWidget {
@@ -41,9 +42,14 @@ class _ProfilePageState extends State<ProfilePage>
             body: TabBarView(
               controller: _tabController,
               children: [
-                Container(
-                  alignment: Alignment.center,
-                  child: Text(Strings.profileTitle),
+                Column(
+                  children: [
+                    const SizedBox(height: 16),
+                    TitleComponent(
+                      title: Strings.connectTitle,
+                      description: Strings.connectDescription,
+                    ),
+                  ],
                 ),
                 Container(
                   alignment: Alignment.center,
