@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_lab1/screens/main/components/carousel/carousel_scroll.dart';
 import 'package:flutter_lab1/screens/main/components/tab_bar.dart';
-import 'package:flutter_lab1/screens/main/components/titleComponent.dart';
+import 'package:flutter_lab1/screens/main/components/title_component.dart';
+import 'package:flutter_lab1/theme/other.dart';
 import 'package:flutter_lab1/theme/strings.dart';
 
 class ProfilePage extends StatefulWidget {
@@ -48,6 +50,9 @@ class _ProfilePageState extends State<ProfilePage>
                     TitleComponent(
                       title: Strings.connectTitle,
                       description: Strings.connectDescription,
+                    ),
+                    CarouselScroll(
+                      cardsContent: Other.connectionsList,
                     ),
                   ],
                 ),
