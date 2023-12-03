@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_lab1/screens/main/components/carousel/carousel_card.dart';
+import 'package:flutter_lab1/screens/main/components/tariff/tariff_item.dart';
 import 'package:flutter_lab1/theme/strings.dart';
 
 class Other {
@@ -15,6 +16,24 @@ class Other {
       name: Strings.secondCardName,
       title: Strings.secondCardTitle,
       description: Strings.cardDescription,
+    ),
+  ];
+
+  static List<ItemContent> tariffList = [
+    ItemContent(
+      image: const AssetImage('assets/ic_speedometer.png'),
+      title: Strings.firstItemTitle,
+      description: Strings.firstItemDescription,
+    ),
+    ItemContent(
+      image: const AssetImage('assets/ic_percent.png'),
+      title: Strings.secondItemTitle,
+      description: Strings.secondItemDescription,
+    ),
+    ItemContent(
+      image: const AssetImage('assets/ic_arrows_forward_back.png'),
+      title: Strings.thirdItemTitle,
+      description: " ",
     ),
   ];
 }

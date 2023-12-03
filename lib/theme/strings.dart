@@ -10,4 +10,11 @@ class Strings {
   static String firstCardTitle = 'Платёж 9 июля';
   static String secondCardTitle = 'Автопродление 21 августа';
   static String cardDescription = '199 ₽ в месяц';
+  static String tariffTitle = 'Тарифы и лимиты';
+  static String tariffDescription = 'Для операций в Сбербанк Онлайн';
+  static String firstItemTitle = 'Изменить суточный лимит';
+  static String firstItemDescription = 'На платежи и переводы';
+  static String secondItemTitle = 'Переводы без комиссии';
+  static String secondItemDescription = 'Показать остаток в этом месяце';
+  static String thirdItemTitle = 'Информация о тарифах\nи лимитах';
 }

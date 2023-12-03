@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_lab1/screens/main/components/carousel/carousel_scroll.dart';
 import 'package:flutter_lab1/screens/main/components/tab_bar.dart';
+import 'package:flutter_lab1/screens/main/components/tariff/tariff_list.dart';
 import 'package:flutter_lab1/screens/main/components/title_component.dart';
 import 'package:flutter_lab1/theme/other.dart';
 import 'package:flutter_lab1/theme/strings.dart';
@@ -54,6 +55,14 @@ class _ProfilePageState extends State<ProfilePage>
                     CarouselScroll(
                       cardsContent: Other.connectionsList,
                     ),
+                    Align(
+                      alignment: Alignment.centerLeft,
+                      child: TitleComponent(
+                        title: Strings.tariffTitle,
+                        description: Strings.tariffDescription,
+                      ),
+                    ),
+                    TariffList(itemsContent: Other.tariffList),
                   ],
                 ),
                 Container(
