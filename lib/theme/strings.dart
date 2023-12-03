@@ -17,4 +17,15 @@ class Strings {
   static String secondItemTitle = 'Переводы без комиссии';
   static String secondItemDescription = 'Показать остаток в этом месяце';
   static String thirdItemTitle = 'Информация о тарифах\nи лимитах';
+  static String interestTitle = 'Интересы';
+  static String interestDescription =
+      'Мы подбираем истории и предложения по темам, которые вам нравятся';
+  static String firstInterestItem = 'Интересы';
+  static String foodChip = 'Еда';
+  static String selfDevelopmentChip = 'Саморазвитие';
+  static String techChip = 'Технологии';
+  static String homeChip = 'Дом';
+  static String leisureChip = 'Досуг';
+  static String selfCareChip = 'Забота о себе';
+  static String scienceChip = 'Наука';
 }

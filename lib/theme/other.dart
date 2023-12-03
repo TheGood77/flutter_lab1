@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_lab1/theme/strings.dart';
 import 'package:flutter_lab1/screens/main/components/carousel/carousel_card.dart';
 import 'package:flutter_lab1/screens/main/components/tariff/tariff_item.dart';
-import 'package:flutter_lab1/theme/strings.dart';
 
 class Other {
   static List<CardContent> connectionsList = [
